@@ -16,7 +16,7 @@ def node():
     return root
 
 def integer():
-    return random.randint(0, 1000)
+    return random.randint(0, 10)
 
 def string():
     return ''.join(random.choices('abcdefghijklmnopqrstuvwxyz', k=random.randint(1, 200)))
